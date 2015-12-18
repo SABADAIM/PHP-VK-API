@@ -9,5 +9,5 @@ function api($method, $param) {
   return json_decode($getApi, true);
 } 
 
-$friend_add  = api('friends.add', 'access_token='.$token.'&user_id='.$friend); // передаем данные себе на страницу в статус 
+$friend_add  = api('friends.add', 'access_token='.$token.'&user_id='.$friend); // передаем данные и добавляем друга
 ?>
